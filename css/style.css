@@ -145,8 +145,29 @@ body {
 #main-na {
   margin-left: 50px;
   box-shadow: 2px 1px 5px 0 rgba(0,0,0,.3);
+}
 
+#clock-box {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 1px 5px 0 rgba(0,0,0,.3);
+  opacity: 0.8;
+}
 
+#clock-box:hover {
+  background-color: #f1ff57;
+}
+
+#clock {
+  text-align: center;
+  color: rgb(50, 50, 50);
+  vertical-align: middle;
+  line-height: 45px;
 }
 
 /* 페이보릿 박스 */
