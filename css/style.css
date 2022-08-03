@@ -90,23 +90,34 @@ body {
   animation: fadein 1s;
 }
 
+.main-box .index-text {
+  margin: 50px;
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
 .main-box .about-text {
   margin: 50px;
 }
 
-.main-box .about-text p {
+.main-box .about-text {
   font-family: 'roboto';
   font-weight: 100;
  }
 
-.main-box .about-text #welcome-text {
+.main-box .index-text #welcome-text {
+  font-family: 'roboto';
+  font-weight: 100;
+  width: 680px;
   text-align: center;
-  animation: fadein 1s;
+  letter-spacing: 5px;
 }
 
-#index-logo {
-  margin-top: 30px;
-}
+/* #index-logo {
+
+} */
 
 .main-box .about-text h1 {
  font-family: 'Playfair Display', serif;
